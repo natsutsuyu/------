@@ -66,9 +66,13 @@ ul{
 .visible:hover .drop-down{
     display: block;
 }
+.visible:hover{
+    background: var(--active-background)
+}
 .visible{
     height: 50px;
-    margin-top: 34px;
+    display: flex;
+    padding-top: 2px;
 }
 input{
     width: 200px;
