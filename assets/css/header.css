@@ -90,3 +90,10 @@ box-shadow: inset 0 1px 1px blue;
 .search:hover{
     background: #ccc;
 }
+
+@media screen and (max-width:799px){
+    nav, .right-side{
+      display: none;  
+    } 
+    
+}

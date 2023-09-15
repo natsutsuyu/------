@@ -37,3 +37,11 @@
     text-align: center;
     padding: 10px;
 }
+@media screen and (max-width:799px){
+    .content2-box, .content2{
+        flex-direction: column;
+        width: 700px;
+        height: max-content;
+        gap: 20px;
+    } 
+}

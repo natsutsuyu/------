@@ -69,3 +69,11 @@ h3>a:hover {
     max-width: 360px;
     height: 450px;
 }
+
+@media screen and (max-width:799px){
+    .content1-articles, .content1{
+        flex-direction: column;
+        width: 700px;
+        height: max-content;
+    } 
+}
