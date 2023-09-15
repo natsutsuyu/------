@@ -30,3 +30,6 @@ button{
     min-width: var(--min-width);
     display: flex;
 }
+h1, h2, h3{
+    font-weight: 500;
+}
