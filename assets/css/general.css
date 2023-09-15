@@ -14,6 +14,8 @@ main{
     grid-row: 2/3;
 }
 footer{
+    max-width: var(--page-width);
+    min-width: var(--min-width);
     grid-row: 3;
 }
 button{

@@ -5,7 +5,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    max-width: var(--general-width);
+    max-width: var(--page-width);
 }
 .menu-cover{
     flex-direction: row;
@@ -31,11 +31,11 @@ nav{
     color:var(--foreground-header);
     height: 100%;
 }
-#home, #services{
+#active, #services{
     color: white;
     height: 100%;
 }
-#home{
+#active{
     background: var(--active-background);
 }
 .menu:nth-child(1){

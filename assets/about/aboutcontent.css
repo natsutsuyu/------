@@ -1,0 +1,41 @@
+@import url(../css/variables/colors.css);
+@import url(../css/variables/sizes.css);
+.content1{
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content1-box{
+    max-width: 700px;
+    padding: 20px;
+    text-align: center;
+}
+.content1-box>h2{
+    font-size: 36px;
+}
+small{
+    font-size: 25px;
+    color: var(--foreground-header);
+}
+.content1-text, .article-about{
+    color: var(--general-color);
+}
+.article-about{
+    text-align: center;
+}
+.content-articles{
+    max-width: 360px;
+    height: 500px;
+}
+.content-articles, .content1-box, .cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3>a{
+    font-size: 25px;
+    color: #337ab7;
+}
