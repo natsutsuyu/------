@@ -23,12 +23,17 @@ header{
     align-items: center;
 
 }
+nav{
+    height: 100%;
+}
 .menu>li>a{
     padding: 15px;
     color:var(--foreground-header);
+    height: 100%;
 }
 #home, #services{
     color: white;
+    height: 100%;
 }
 #home{
     background: var(--active-background);
@@ -60,6 +65,9 @@ ul{
 }
 .visible:hover .drop-down{
     display: block;
+}
+.visible{
+    height: 100%;
 }
 input{
     width: 200px;
