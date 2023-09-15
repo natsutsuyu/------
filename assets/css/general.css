@@ -24,6 +24,9 @@ button{
     color: #333;
     font-size: var(--general-font);
 }
+button:hover{
+    cursor: pointer;
+}
 .wrap{
     align-items: center;
     width: var(--general-width);

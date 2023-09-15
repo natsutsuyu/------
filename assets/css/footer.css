@@ -1,0 +1,14 @@
+@import url(/assets/css/variables/colors.css);
+@import url(/assets/css/variables/sizes.css);
+footer, .footer-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text>p>a{
+    color:#337ab7;
+}
+.footer-text:nth-child(1){
+    color: var(--general-color);
+}
