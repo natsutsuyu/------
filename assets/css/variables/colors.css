@@ -1,0 +1,9 @@
+:root{
+    --background-header: #222;
+    --foreground-header: #9d9d9d;
+    --general-color: #959595;
+    --body-color: #fff;
+    --active-background: #080808;
+    --introduction-color: #9acd32;
+    --introduction-text-color: #adff2f;
+}

@@ -1,0 +1,8 @@
+:root{
+    --page-width: 100vw;
+    --header-height: 50px;
+    --footer-height: 80px;
+    --general-width: 1170px;
+    --min-width: 500px;
+    --general-font: 14px;
+}

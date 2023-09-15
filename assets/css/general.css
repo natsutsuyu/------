@@ -1,0 +1,32 @@
+body{
+    display: grid;
+    grid-template-rows: 50px 1fr 120px;
+    background-color: var(--body-color);
+    height: 100vh;
+}
+header{
+    position: sticky;
+    grid-row: 1/2;
+    max-width: var(--page-width);
+    min-width: var(--min-width);
+}
+main{
+    grid-row: 2/3;
+}
+footer{
+    grid-row: 3;
+}
+button{
+    height: 30px;
+    padding: 5px;
+    border: 1px solid var(--general-color);
+    border-radius: 4px;
+    color: #333;
+    font-size: var(--general-font);
+}
+.wrap{
+    align-items: center;
+    width: var(--general-width);
+    min-width: var(--min-width);
+    display: flex;
+}
