@@ -12,3 +12,9 @@ footer, .footer-text{
 .footer-text:nth-child(1){
     color: var(--general-color);
 }
+@media screen and (max-width:799px){
+    footer, .footer-text{
+        width: 100%;
+        min-width: none;
+    }
+}

@@ -3,7 +3,6 @@
 
 .introduction-cover{
     height:fit-content;
-    width: var(--page-width);
     background: var(--introduction-color);
     color: var(--introduction-text-color);
     text-align: center;
@@ -12,6 +11,8 @@
     align-items: center;
     padding: 48px;
     box-sizing: border-box;
+    width:100%;
+    min-width: var(--min-width);
 }
 .introduction-box{
     height: 100%;
@@ -20,6 +21,8 @@
 }
 h1{
     font-size: 63px;
+    max-width: var(--general-width);
+    min-width: var(--min-width);
 }
 h1, .intro{
     padding-bottom: 10px;
@@ -38,4 +41,9 @@ h1, .intro{
 }
 .engage:hover{
     background-color: #2c6aa0;
+}
+@media screen and (max-width:900px){
+    h1{
+        font-size: 40px;
+    }
 }

@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./index.css">
+  <meta name="description"
+    content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus erat non pulvinar mollis. Ut at odio ligula. Fusce nec elementum quam. Fusce non mi quis dolor porttitor scelerisque id non elit. Sed varius ante ligula, in rutrum leo pellentesque ac. Pellentesque habitant morbi tristique senectus et netus et malesuada ">
+    <meta name="keywords" content="about, lorem, ipsum, template, i, dont, know, what, else" />
   <title>Home</title>
 </head>
 
@@ -12,6 +15,7 @@
   <header>
     <section class="wrap menu-cover">
       <div class="left-side">
+        <div class="flex">
         <div class="logo">
           <svg height="50" width="20">
             <polygon points="14,12 18,12 18,35 8,35 8,30 14,30"
@@ -23,11 +27,54 @@
               style="fill:rgb(116, 120, 116);stroke:rgb(255, 255, 255);stroke-width:1;fill-rule:evenodd;" />
           </svg>
           <span class="logo-text">Logo</span>
-        </div>
+          </div>
+          <div class="burger-wrap">
+            <div class="burger-conteiner">
+              <div class="burger">
+                 <hr>
+                 <hr>
+                 <hr>
+              </div>
+            </div>
+              <div class="burger-nav">
+                <ul class="menu">
+                  <li>
+                    <a id="active-burger" href="./index.html" class="menu_item">Home</a>
+                  </li>
+                  <li>
+                    <a href="./about.html" class="menu_item">About</a>
+                  </li>
+                  <li>
+                    <a href="./products.html" class="menu_item">Products</a>
+                  </li>
+                  <li class="burger-services">
+                    <a href="#" id="burger_item">Services</a>
+                    <ul
+                    class="burger-dropdown">
+                      <li>
+                        <a href="#" class="drop_item">Engage</a>
+                      </li>
+                      <li>
+                        <a href="#" class="drop_item">Pontificate</a>
+                      </li>
+                      <li>
+                        <a href="#" class="drop_item">Synergize</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="form">
+                  <input class="burger-input" type="text">
+                  <br>
+                  <button class="search">Search</button>
+                </form>
+              </div>
+            </div>
+          </div>
         <nav>
-          <ul class="menu">
+          <ul class="menu1">
             <li>
-              <a id="active" href="#">Home</a>
+              <a id="active" href="./index.html">Home</a>
             </li>
             <li>
               <a href="./about.html">About</a>
@@ -62,7 +109,7 @@
     </section>
   </header>
   <main>
-    <section class="wrap introduction-cover">
+    <section class="introduction-cover">
       <div class="introduction-box">
         <h1>Dramatically Engage</h1>
         <p class="intro">Objectively innovate empowered manufactured products whereas parallel platforms. </p>

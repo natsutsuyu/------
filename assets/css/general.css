@@ -1,9 +1,13 @@
-body{
+ body{
     display: grid;
     grid-template-rows: 50px 1fr 120px;
+    grid-template-columns:auto;
     background-color: var(--body-color);
     height: 100vh;
-}
+    max-width:max-content;
+    width: 100vw;
+    min-width: var(--min-width);
+} 
 header{
     position: sticky;
     grid-row: 1/2;
@@ -12,6 +16,8 @@ header{
 }
 main{
     grid-row: 2/3;
+    min-width: var(--min-width);
+    width: 100%;
 }
 footer{
     max-width: var(--page-width);
