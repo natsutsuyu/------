@@ -161,6 +161,9 @@ box-shadow: inset 0 1px 1px blue;
         padding-top: 5px;
         padding: 10px;
     }
+    .menu_item{
+        width: 100%;
+    }
     li:hover{
         background-color: black;
     }
